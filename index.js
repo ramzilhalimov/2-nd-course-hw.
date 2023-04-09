@@ -1,8 +1,8 @@
 let a=20;
 alert(20);
-let born=(2007);//'Год выпуска первого Iphone'
+const born=(2007);//'Год выпуска первого Iphone'
 alert(born)
-let creator=('Брендан Эйх');//'Имя создателя языка JavaScript'
+const creator=('Брендан Эйх');//'Имя создателя языка JavaScript'
 alert(creator)
 let x1= 10;
 let x2= 20;
@@ -14,12 +14,12 @@ let b=9;
 let c=2;
 alert(b % c);
 let num = 1;
-num = num + 5;
-num = num - 3;
-num = num * 7;
-num = num / 3;
-num = num + 1;
-num = num - 1;
+ num += 5;
+ num -= 3;
+ num *= 7;
+ num /= 3;
+ num += 1;
+ num -= 1;
 alert(num);
 let age=prompt("Сколько вам лет?");
 alert(age);
