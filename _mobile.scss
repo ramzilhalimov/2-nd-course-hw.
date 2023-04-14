@@ -3,12 +3,26 @@
       padding-left: calc(50% - 393px);
       padding-right: calc(50% - 393px);
     }
+    .game-box{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .game-box__item{
+        width: 376px;
+    }
 }
 @media (min-width: 768px) and (max-width: 833px) {
     .center {
       padding-left: 24px;
       padding-right: 24px;
     }
+    .game-box{
+        display: flex;
+        flex-wrap: wrap;
+    }
+.game-box__item{
+    width: 343px;
+}
 }
 @media (max-width: 767px){
 .center{
