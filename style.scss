@@ -11,7 +11,7 @@ body{
     font-family: "Montserrat", sans-serif;
 }
 .header{
-    height: 1024px;
+    min-height: 1024px;
     background-image: url(img/gamesheader.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -67,7 +67,7 @@ transition: .3s;
     }
 }
 .game-box{
-height: 556px;
+min-height: 556px;
 background-image: url(img/gamebox.png);
 background-position: center;
 background-repeat: no-repeat;
