@@ -1,4 +1,4 @@
- //1
+  //1
 let i = 0;
 while (i<2) {
     console.log('Привет');
@@ -30,11 +30,9 @@ for (let n = 1000, num = 5; n > 50; num++) {
 
   n /= 2;
       alert( n );
-  }
+  } 
 //6
 for (let dayNumber = 1; dayNumber <= 31; dayNumber++) { 
-	if (dayNumber % 7 == 0) {
+    dayNumber += 7; 
 		console.log(`Сегодня пятница, ${dayNumber}-е число. Необходимо подготовить отчет.`); 
 	}
-	
-}
