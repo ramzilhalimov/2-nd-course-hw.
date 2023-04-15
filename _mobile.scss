@@ -1,3 +1,9 @@
+@media ( max-width: 1200px) {
+    .center{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+}
 @media (max-width: 1024px) {
     .center {
       padding-left: calc(50% - 393px);
