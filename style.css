@@ -13,7 +13,7 @@ body {
 }
 
 .header {
-  min-height: 1024px;
+  height: 1024px;
   background-image: url(img/gamesheader.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -129,6 +129,12 @@ body {
   padding-left: 32px;
 }
 
+@media (max-width: 1200px) {
+  .center {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
 @media (max-width: 1024px) {
   .center {
     padding-left: calc(50% - 393px);
