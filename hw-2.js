@@ -22,11 +22,11 @@ if (d > 100 || e > 100) {
     console.log('Неверно'); 
 }
 //4
-let a = 2;
-let b = 3;
+let a = '2';
+let b = '3';
 console.log(a + b);
 //5
-let monthNumber = +prompt("Введите номер месяца: 1 - январь, 12 - декабрь");
+let monthNumber;
 switch (monthNumber) {
     case 12:
     case 1:

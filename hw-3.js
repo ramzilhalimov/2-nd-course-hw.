@@ -1,4 +1,4 @@
-//1
+  //1
 let i = 0;
 while (i<2) {
     console.log('Привет');
@@ -25,17 +25,14 @@ let obj = {
 for (let name in obj){
     alert(`${name} - зарплата ${obj[name]} долларов`);
 }
-//5
-let b = 1000;
-for( let num = 50; num<b; num++) b%2;
-console.log();
+//5 
+for (let n = 1000, num = 5; n > 50; num++) {
 
-
-
-
+  n /= 2;
+      alert( n );
+  } 
 //6
-for ( let dayNumber = 1; dayNumber <=31; dayNumber++){
-    if (dayNumber % 6 !== 0);
-    console.log (`Сегодня пятница, ${dayNumber}-е число. Необходимо подготовить отчет`);
-    continue;
-}
+for (let dayNumber = 1; dayNumber <= 31; dayNumber++) { 
+    dayNumber += 7; 
+		console.log(`Сегодня пятница, ${dayNumber}-е число. Необходимо подготовить отчет.`); 
+	}
