@@ -1,4 +1,4 @@
- //1
+ /*//1
 function number(a, b) {
    return b; 
 }
@@ -90,3 +90,21 @@ function number(a, b) {
  };
  console.log(circle2.getArea());
  console.log(circle2.getPerimeter());
+*/
+ 
+function showButton() {
+    let userAnswer = prompt('Какой месяц на дворе?');
+    if (userAnswer >= 1 && userAnswer <=2 || userAnswer === 12) {
+      return console.log('Зима');
+    } else if (userAnswer >= 3 && userAnswer <= 5) {
+       return console.log('Весна');
+    } else if (userAnswer >= 6 && userAnswer <= 8) {
+       return console.log('Лето');
+    } else if (userAnswer >= 9 && userAnswer <= 11) {
+      return  console.log('Осень');
+    } else if (userAnswer>=13){
+        return console.log('Что-то пошло не так');
+    }
+
+} 
+ 
