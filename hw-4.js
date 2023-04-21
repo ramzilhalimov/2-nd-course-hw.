@@ -1,4 +1,4 @@
- /*//1
+ //1
 function number(a, b) {
    return b; 
 }
@@ -6,12 +6,8 @@ function number(a, b) {
  console.log(number(6, 6));
  //2
  function even(n) {
-    if (n % 2 == 0) {
-    return true;
-    } else {
-    return false; 
+    return (n % 2 == 0) 
     }
- }
  let n = prompt('Введите число?');
  if (even(n)) {
     alert ('Число четное');
@@ -26,7 +22,7 @@ function number(a, b) {
  console.log(result);
  //4
  function checkAge(age) {
-  if (age <= -0) {
+  if (age <= 0) {
    console.log('Вы ввели неправильное значение') ;
   } else if (age <= 12) {
     return true;
@@ -42,7 +38,7 @@ function number(a, b) {
  } 
  //5
  function calc (a, b) {
-   if (isNaN(a, b)){
+   if (isNaN(a) || isNaN(b)){
    return console.log('Одно или оба значения не являются числом');;
  } else {
     return a*b;
@@ -90,7 +86,7 @@ function number(a, b) {
  };
  console.log(circle2.getArea());
  console.log(circle2.getPerimeter());
-*/
+
  
 function showButton() {
     let userAnswer = prompt('Какой месяц на дворе?');
