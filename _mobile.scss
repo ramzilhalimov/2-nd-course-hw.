@@ -1,4 +1,9 @@
-
+@media ( max-width: 1200px) {
+    .center{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+}
 @media (max-width: 1024px) {
     .center {
       padding-left: calc(50% - 393px);
@@ -10,13 +15,6 @@
       padding-left: 24px;
       padding-right: 24px;
     }
-    .game-box{
-        display: flex;
-        flex-wrap: wrap;
-    }
-.game-box__item{
-    width: 343px;
-}
 }
 @media (max-width: 767px){
 .center{
@@ -24,7 +22,7 @@
         padding-right:  16px;
     }
 .header{
-    min-height: 735px;
+    height: 735px;
     background-image: url(img/mobile.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -50,4 +48,26 @@ text-align: center;
 .game-box__item{
     width: 343px;
 }
+}
+.game-year{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+}
+.game-year__img{
+    width: 343px;
+}
+.game-year__content{
+    align-items: center;
+}
+.game-year__heading{
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;  
+}
+.game-year__text{
+    font-size: 14px;
+    line-height: 22px;
+    padding-bottom: 32px;
+    text-align: center; 
 }

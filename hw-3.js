@@ -32,7 +32,7 @@ for (let n = 1000, num = 5; n > 50; num++) {
       alert( n );
   } 
 //6
-for (let dayNumber = 1; dayNumber <= 31; dayNumber++) { 
+for (let dayNumber = 6; dayNumber <=31; dayNumber++) { 
     dayNumber += 7; 
 		console.log(`Сегодня пятница, ${dayNumber}-е число. Необходимо подготовить отчет.`); 
 	}
