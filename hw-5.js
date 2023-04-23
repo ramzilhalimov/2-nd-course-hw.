@@ -56,8 +56,8 @@ console.log(result);
 //10
 let numbers1 = [ 4, 5, 9, 3, 8, 2];
     for( let i = 0; i < numbers1.length; i++) {
-         if (numbers[i] + 1) {
-            console.log(numbers[i]);
+         if (numbers1[i] + 1) {
+            console.log(numbers1[i]);
         }
     }   
 //11
