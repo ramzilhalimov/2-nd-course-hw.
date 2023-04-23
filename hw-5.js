@@ -7,17 +7,23 @@ for (let i = 0; i < num.length; i++) {
 }
 //2
 let nums = [1, 5, 4, 10, 0, 3];
-console.log(nums[2]);
+console.log( nums.indexOf(4));
+
+
 //3
 let numbs = [1, 3, 5, 10, 20];
 numbs = numbs.join();
 console.log(numbs);
+
 //4
-let arrs = [
-    [1, 1, 1], 
-    [1, 1, 1], 
-    [1, 1, 1],
-];
+let arrs = [];
+for (let i = 0; i < 3; i++) {
+	arrs[i] = [];
+	for (let j = 0; j < 3; j++) {
+		arrs[i][j] = 1; 
+	}
+}
+console.log(arrs);
 
 //5
 let arr = [1, 1, 1];
