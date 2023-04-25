@@ -137,9 +137,9 @@ body {
   background-size: cover;
   padding-top: 128px;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: row-reverse;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: space-around;
   align-content: center;
 }
 .game-year__content {
@@ -184,6 +184,66 @@ body {
   transition: 0.3s;
 }
 .game-year__btn:hover {
+  transform: scale(1.1);
+  background: #000000;
+  border: 1px solid #FFFFFF;
+  border-radius: 20px;
+  color: rgba(170, 170, 170, 0.6666666667);
+}
+
+.game-word {
+  min-height: 800px;
+  background-image: url(img/game-year.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 128px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-content: center;
+}
+.game-word__content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 32px;
+}
+.game-word__img {
+  width: 485px;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.game-word__heading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  color: #FFFFFF;
+}
+.game-word__text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  max-width: 535px;
+  color: #FFFFFF;
+}
+.game-word__btn {
+  width: 234px;
+  height: 48px;
+  background: #9C0332;
+  border-radius: 30px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  border: 1px solid #000000;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.game-word__btn:hover {
   transform: scale(1.1);
   background: #000000;
   border: 1px solid #FFFFFF;
@@ -241,30 +301,4 @@ body {
   .game-box__item {
     width: 343px;
   }
-}
-.game-year {
-  display: flex;
-  flex-direction: column-reverse;
-  justify-content: space-evenly;
-}
-
-.game-year__img {
-  width: 343px;
-}
-
-.game-year__content {
-  align-items: center;
-}
-
-.game-year__heading {
-  font-size: 32px;
-  line-height: 39px;
-  text-align: center;
-}
-
-.game-year__text {
-  font-size: 14px;
-  line-height: 22px;
-  padding-bottom: 32px;
-  text-align: center;
 }/*# sourceMappingURL=style.css.map */
