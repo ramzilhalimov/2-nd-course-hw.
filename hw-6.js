@@ -1,4 +1,4 @@
-//1
+/*//1
 let str = 'js';
 str = str.toUpperCase();
 console.log(str);
@@ -27,7 +27,6 @@ const length = 6;
 const numbers = [...Array(length / 2)];
 for (let i = 0; i < numbers.length; i += 1) { 
     numbers[i] = Math.round(Math.random() * 6 );
-    numbers
 }
 console.log(numbers);
 //7
@@ -50,17 +49,17 @@ let date = new Date(2023, 4, 25, 20, 29, 12, 13);
 let realDate = " Дата: " + date.getDate() + " " + months[date.getMonth()] + " " + date.getFullYear( ) + " - это " + days[date.getDay()] + "                " + 
   " Время: " + date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds();
 console.log(realDate);
-
+*/
 function fructShow () {
 const fruct = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
 alert(fruct.sort(() => Math.random() - 0.5));
 let apple = prompt('Чему равнялся первый элемент массива?');
-let pineapple = prompt('Чему равнялся последний элемент массива?');
-if (apple === 'Яблоко', 'Мандарин'){
+let pineapple = prompt('Чему равнялся последний элемент массива?') ;
+if (apple == 'Яблоко' && pineapple == 'Мандарин'){
     return alert('Поздравляю, Вы угадали!');
-} else if (apple === 'Груша', 'Апельсин' ){
+} else if (apple == 'Яблоко' && pineapple == 'Апельсин' || apple ==  'Груша' && pineapple == 'Мандарин' ){
     return alert ('Вы были близки к победе!');
-} else if (apple === 'Дыня', 'Виноград', 'Персик'){
+} else if (apple == 'Дыня', 'Виноград', 'Персик' && pineapple == 'Персик', 'Виноград', 'Дыня' ){
     return alert('Неправильно');
 }
 }
