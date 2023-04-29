@@ -172,30 +172,4 @@ body {
   .game-box__item {
     width: 343px;
   }
-}
-.game-year {
-  display: flex;
-  flex-direction: column-reverse;
-  justify-content: space-evenly;
-}
-
-.game-year__img {
-  width: 343px;
-}
-
-.game-year__content {
-  align-items: center;
-}
-
-.game-year__heading {
-  font-size: 32px;
-  line-height: 39px;
-  text-align: center;
-}
-
-.game-year__text {
-  font-size: 14px;
-  line-height: 22px;
-  padding-bottom: 32px;
-  text-align: center;
 }/*# sourceMappingURL=style.css.map */
